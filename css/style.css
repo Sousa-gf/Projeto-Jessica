@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: Poppins;
+}
+
+/* Primeira section */
+.s-01 {
+  width: 100%;
+  background-color: #1e4c70;
+  color: white;
+  font-family: Poppins;
+  display: flex;
+}
+
+.info {
+  width: 33%;
+  text-align: center;
+  margin: 50px 0 0 50px;
+}
+
+.info .d1 p {
+  font-size: 25px;
+  margin-top: 50px;
+}
+
+.info .d1 h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.info .d1 h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.info .d2 {
+  margin-top: -250px;
+}
+
+.info .d2 h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.info .d2 h2 {
+  font-size: 25px;
+}
+
+.logo-main {
+  width: 100%;
+  transform: scale(0.5);
+  border-radius: 50%;
+  transform-origin: top;
+  margin: 70px 60px 0 0;
+}
+
+.info-02 {
+  width: 34%;
+  text-align: center;
+  padding: 11% 0;
+}
+
+.info-02 h1 {
+  padding: 0 10px;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  line-height: 60px;
+}
+
+.info-02 h3 {
+  padding: 0 56px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 29px;
+}
+
+.img-jess-01 {
+  width: 33%;
+  transform: scale(0.7);
+  border-radius: 15px;
+  border: 10px solid white;
+}
+
+/* Segunda Section */
+
+.s-02 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: #40709d;
+  color: white;
+}
+
+.img-jess-02 {
+  width: 25%;
+  transform: scale(0.9);
+  transform-origin: top left;
+  margin: 50px 100px 0 150px;
+  border-radius: 15px;
+  border: 10px solid white;
+}
+
+.div-S02 {
+  width: 60%;
+  text-align: center;
+  line-height: 30px;
+  margin: 100px 0 0 0;
+}
+
+.div-S02 h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.div-S02 p {
+  font-size: 20px;
+  padding: 0 200px;
+}
+
+/* Quarta Section */
+
+.s-04 {
+  background-color: #7ca7d2;
+  display: flex;
+  padding: 50px 0;
+}
+
+.s-04 div {
+  height: 450px;
+  text-align: center;
+  margin: 45px;
+  padding: 20px 40px;
+  background-color: white;
+  border-radius: 15px;
+  line-height: 22px;
+}
+
+.s-04 div img {
+  transform: scale(1.1);
+}
+
+.s-04 div h1 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+/* Quinta Section */
+
+.s-05 {
+  width: 100%;
+  background-color: #90bfee;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.s-05 h1 {
+  width: 100%;
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+  margin-top: 50px;
+}
+
+.cont-s05 {
+  display: flex;
+  transform-origin: bottom;
+  margin: 40px 0px 0px 250px;
+}
+
+.dep-01,
+.dep-02 {
+  display: block;
+  width: 60%;
+  background: white;
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin: 0px 0px 50px 200px;
+}
+
+.dep-01 img,
+.dep-02 img {
+  transform-origin: left;
+  position: absolute;
+  margin: -30px 200px 0 -420px;
+}
+
+/* Footer */
+footer h1 {
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contato {
+}
+
+footer img {
+}
