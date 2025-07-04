@@ -4,7 +4,7 @@ body {
   font-family: Poppins;
 }
 
-/* Primeira section */
+/* Primeira section "Jesica Souza" */
 .s-01 {
   width: 100%;
   background-color: #1e4c70;
@@ -84,7 +84,7 @@ body {
   border: 10px solid white;
 }
 
-/* Segunda Section */
+/* Segunda Section "Sobre mim" */
 
 .s-02 {
   width: 100%;
@@ -119,17 +119,18 @@ body {
 .div-S02 p {
   font-size: 20px;
   padding: 0 200px;
+  text-align: justify;
 }
 
-/* Quarta Section */
+/* Terceira Section "Meu trabalho" */
 
-.s-04 {
+.s-03 {
   background-color: #7ca7d2;
   display: flex;
   padding: 50px 0;
 }
 
-.s-04 div {
+.s-03 div {
   height: 450px;
   text-align: center;
   margin: 45px;
@@ -139,38 +140,42 @@ body {
   line-height: 22px;
 }
 
-.s-04 div img {
+.s-03 div img {
   transform: scale(1.1);
 }
 
-.s-04 div h1 {
+.s-03 div h1 {
   font-weight: bold;
   margin-bottom: 20px;
   padding: 0 10px;
 }
 
-/* Quinta Section */
+.s-03 div p {
+  text-align: justify;
+  font-size: 17px;
+}
 
-.s-05 {
+/* Quarta Section "Depoimentos" */
+
+.s-04 {
   width: 100%;
   background-color: #90bfee;
   display: flex;
-  flex-wrap: wrap;
   text-align: center;
 }
 
-.s-05 h1 {
-  width: 100%;
+.s-04 h1 {
   font-size: 60px;
   font-weight: 500;
   color: white;
-  margin-top: 50px;
+  transform-origin: left;
+  margin-top: 20px;
 }
 
-.cont-s05 {
+.cont-s04 {
   display: flex;
   transform-origin: bottom;
-  margin: 40px 0px 0px 250px;
+  margin: 40px 0px 0px 200px;
 }
 
 .dep-01,
@@ -180,14 +185,14 @@ body {
   background: white;
   border-radius: 15px;
   padding: 40px 50px;
-  margin: 0px 0px 50px 200px;
+  margin: 50px 0px 50px 350px;
+  text-align: justify;
 }
 
 .dep-01 img,
 .dep-02 img {
   transform-origin: left;
-  position: absolute;
-  margin: -30px 200px 0 -420px;
+  margin: -30px 0px 0px 0px;
 }
 
 /* Footer */
@@ -199,7 +204,24 @@ footer h1 {
 }
 
 .contato {
+  display: flex;
 }
 
-footer img {
+.contato img {
+  margin: 20px 0 0 100px;
+}
+
+.contato-02 {
+  display: inline-block;
+  margin: 130px 0 0 0px;
+}
+
+.contato-02 h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.contato-02 img {
+  margin-right: 30px;
+  transform: scale(1.3);
 }
