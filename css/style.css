@@ -16,7 +16,7 @@ body {
 .info {
   width: 33%;
   text-align: center;
-  margin: 50px 0 0 50px;
+  margin: 120px 0 0 50px;
 }
 
 .info .d1 p {
@@ -84,6 +84,18 @@ body {
   border: 10px solid white;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.botao {
+  position: fixed;
+  margin-top: 740px;
+  margin-left: 80%;
+  transform: scale(0.4);
+}
+
 /* Segunda Section "Sobre mim" */
 
 .s-02 {
@@ -146,12 +158,12 @@ body {
 
 .s-03 div h1 {
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   padding: 0 10px;
 }
 
 .s-03 div p {
-  text-align: justify;
+  text-align: center;
   font-size: 17px;
 }
 
