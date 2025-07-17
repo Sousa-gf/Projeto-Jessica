@@ -3,7 +3,6 @@
     font-family: Poppins;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
   }
 
   /* Primeira section "Jesica Souza" */
@@ -21,17 +20,6 @@
     margin: 70px 60px 0 0;
   }
 
-  @keyframes slideIn {
-    from {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0, scale(0.7));
-      opacity: 1;
-    }
-  }
-
   a {
     text-decoration: none;
     color: inherit;
@@ -39,8 +27,406 @@
 
   .botao {
     position: fixed;
-    margin-top: 34%;
-    margin-left: 60%;
+    top: 700px;
+    left: 1400px;
     transform: scale(0.3);
+  }
+
+  /* Segunda Section "Sobre mim" */
+
+  .div-S02 {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    margin: 50px 0 0 0;
+  }
+
+  .div-S02 h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+  .div-S02 p {
+    font-size: 20px;
+    padding: 0 150px;
+    text-align: justify;
+  }
+
+  /* Terceira Section "Meu trabalho" */
+
+  .s-03 div p {
+    text-align: center;
+    font-size: 14px;
+  }
+  /* Quarta Section "Depoimentos" */
+
+  .s-04 {
+    width: 100%;
+    background-color: #90bfee;
+    display: flex;
+    text-align: center;
+  }
+
+  .s-04 h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: white;
+    transform-origin: left;
+    margin-top: 20px;
+  }
+
+  .cont-s04 {
+    transform: scale(0.8);
+    display: flex;
+    transform-origin: bottom;
+    margin: 40px 0px 0px 30px;
+  }
+
+  .dep-01,
+  .dep-02 {
+    display: block;
+    width: 60%;
+    background: white;
+    border-radius: 15px;
+    padding: 40px 50px;
+    margin: 50px 0px 50px 350px;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .dep-01 img,
+  .dep-02 img {
+    transform-origin: left;
+    margin: -30px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 1560px) {
+  body {
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Primeira section "Jesica Souza" */
+  .s-01 {
+    width: 100%;
+    background-color: #1e4c70;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+  }
+
+  .info {
+    width: 33%;
+    text-align: center;
+    margin: 120px 0 0 50px;
+  }
+
+  .info .d1 p {
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+  .info .d1 h1 {
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  .info .d1 h3 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .info .d2 {
+    margin-top: -250px;
+  }
+
+  .info .d2 h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .info .d2 h2 {
+    font-size: 20px;
+  }
+
+  .logo-main {
+    width: 100%;
+    transform: scale(0.4);
+    border-radius: 50%;
+    transform-origin: top;
+    margin: 30px 60px 30px 0;
+  }
+
+  .info-02 {
+    width: 34%;
+    text-align: center;
+    padding: 11% 0;
+  }
+
+  .info-02 h1 {
+    padding: 0 10px;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 45px;
+    line-height: 60px;
+  }
+
+  .info-02 h3 {
+    padding: 0 56px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    line-height: 30px;
+  }
+
+  .img-jess-01 {
+    width: 36%;
+    transform: scale(0.6);
+    border-radius: 15px;
+    border: 10px solid white;
+    animation: slideIn 1s ease-out forwards;
+  }
+
+  .botao {
+    position: fixed;
+    top: 60%;
+    left: 60%;
+    transform: scale(0.3);
+  }
+  /* Segunda Section "Sobre mim" */
+
+  .div-S02 p {
+    font-size: 18px;
+    padding: 0 100px;
+    text-align: justify;
+  }
+  /* Footer */
+  .contato img {
+    transform: scale(0.8);
+    margin: 20px 0 0 100px;
+  }
+
+  .contato-02 h2 {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 1250px) {
+    body {
+      font-family: Poppins;
+      margin: 0;
+      padding: 0;
+    }
+    /* Primeira section "Jesica Souza" */
+    .s-01 {
+      width: 100%;
+      background-color: #1e4c70;
+      color: white;
+      font-family: Poppins;
+      display: flex;
+    }
+
+    .info {
+      text-align: center;
+      margin: 120px 0 0 50px;
+    }
+
+    .info .d1 p {
+      font-size: 18px;
+      margin-top: 50px;
+    }
+
+    .info .d1 h1 {
+      font-size: 40px;
+      font-weight: 500;
+    }
+
+    .info .d1 h3 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .info .d2 {
+      margin-top: -250px;
+    }
+
+    .info .d2 h1 {
+      font-size: 40px;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    .info .d2 h2 {
+      font-size: 20px;
+    }
+
+    .logo-main {
+      width: 100%;
+      transform: scale(0.4);
+      border-radius: 50%;
+      transform-origin: top;
+      margin: 30px 60px 80px 0;
+    }
+
+    .info-02 {
+      text-align: center;
+      padding: 11% 0;
+    }
+
+    .info-02 h1 {
+      padding: 0 10px;
+      font-size: 40px;
+      font-weight: 500;
+      margin-bottom: 45px;
+      line-height: 60px;
+    }
+
+    .info-02 h3 {
+      padding: 0 30px;
+      font-size: 18px;
+      margin-bottom: 50px;
+      line-height: 30px;
+    }
+
+    .img-jess-01 {
+      transform: scale(0.8);
+      border-radius: 15px;
+      border: 10px solid white;
+      animation: slideIn 1s ease-out forwards;
+    }
+
+    .botao {
+      position: fixed;
+      top: 60%;
+      left: 60%;
+      transform: scale(0.2);
+    }
+    /* Segunda Section "Sobre mim" */
+
+    .s-02 {
+      width: 100%;
+      display: flex;
+      background-color: #40709d;
+      color: white;
+    }
+
+    .img-jess-02 {
+      transform: scale(1);
+      transform-origin: top left;
+      margin: 100px 50px 100px 100px;
+      border-radius: 15px;
+      border: 10px solid white;
+    }
+
+    .div-S02 {
+      width: 100%;
+      text-align: center;
+      line-height: 30px;
+      margin: 100px 100px 0 50px;
+    }
+
+    .div-S02 h1 {
+      font-size: 40px;
+      font-weight: 500;
+      margin-bottom: 30px;
+    }
+
+    .div-S02 p {
+      font-size: 18px;
+      padding: 0 0px;
+      text-align: justify;
+    }
+
+    /* Terceira Section "Meu trabalho" */
+
+    .s-03 {
+      background-color: #7ca7d2;
+      display: flex;
+      padding: 50px 0;
+    }
+
+    .s-03 div {
+      height: 350px;
+      text-align: center;
+      margin: 10px;
+      padding: 20px 20px;
+      background-color: white;
+      border-radius: 15px;
+      line-height: 22px;
+    }
+
+    .s-03 div img {
+      transform: scale(1.1);
+    }
+
+    .s-03 div h1 {
+      font-weight: bold;
+      margin-bottom: 25px;
+      padding: 0 10px;
+    }
+
+    .s-03 div p {
+      text-align: center;
+      font-size: 12px;
+    }
+    /* Quarta Section "Depoimentos" */
+
+    .s-04 {
+      width: 100%;
+      background-color: #90bfee;
+      display: flex;
+      text-align: center;
+    }
+
+    .s-04 h1 {
+      font-size: 60px;
+      font-weight: 500;
+      color: white;
+      transform-origin: left;
+      margin-top: 20px;
+    }
+
+    .cont-s04 {
+      transform: scale(0.8);
+      display: flex;
+      transform-origin: bottom;
+      margin: 40px 0px 0px 0px;
+    }
+
+    .dep-01,
+    .dep-02 {
+      width: 80%;
+      display: block;
+      background: white;
+      border-radius: 15px;
+      padding: 25px 30px;
+      margin: 50px 0px 30px 50px;
+      text-align: justify;
+      font-size: 11px;
+    }
+
+    .dep-01 img,
+    .dep-02 img {
+      transform-origin: left;
+      margin: -30px 0px 0px 0px;
+    }
+    /* Footer */
+
+    .contato img {
+      transform: scale(0.6);
+      margin: 20px 0 0 0px;
+    }
+
+    .contato-02 h2 {
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+    .contato-02 img {
+      margin-right: 30px;
+      transform: scale(1.3);
+    }
   }
 }

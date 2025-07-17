@@ -4,7 +4,6 @@ body {
   font-family: Poppins;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 /* Primeira section "Jesica Souza" */
@@ -111,8 +110,8 @@ a {
 
 .botao {
   position: fixed;
-  margin-top: 740px;
-  margin-left: 80%;
+  top: 80%;
+  left: 80%;
   transform: scale(0.3);
 }
 
