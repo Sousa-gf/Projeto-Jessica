@@ -192,8 +192,8 @@
 
   .botao {
     position: fixed;
-    top: 60%;
-    left: 60%;
+    top: 75%;
+    left: 75%;
     transform: scale(0.3);
   }
   /* Segunda Section "Sobre mim" */
@@ -300,8 +300,8 @@
 
     .botao {
       position: fixed;
-      top: 60%;
-      left: 60%;
+      top: 75%;
+      left: 75%;
       transform: scale(0.2);
     }
     /* Segunda Section "Sobre mim" */
